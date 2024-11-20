@@ -2,15 +2,13 @@ import {Metadata} from "next";
 
 export const metadata = {
     title: "ssr-seo 프라이드 치킨 페이지",
-    destination: "프라이드 치킨 페이지입니다.",
+    description: "프라이드 치킨 페이지입니다.",
     openGraph:{
         title: "NextJS SNS 공유 테스트 치킨 페이지",
         description: "후라이드 치킨이 아니라 프라이드 치킨이 맞는 말이래요.",
         images: [
             {
                 url: "https://www.pngarts.com/files/4/Fried-Chicken-PNG-Image-Transparent-Background.png",
-                width: 400,
-                height: 300,
                 alt: "fried-chicken"
             }
         ]
