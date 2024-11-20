@@ -1,5 +1,22 @@
 import {Metadata} from "next";
 
+export const metadata = {
+    title: "SSR SEO-Pasta",
+    description: "Pasta 페이지입니다.",
+    openGraph: {
+        title: "NextJS SNS 공유 테스트 파스타 페이지",
+        description: "맛있는 파스타 링귀니가 짱이야",
+        siteName: "SSR SEO 테스트",
+        url: "https://ssr-seo.vercel.app/pasta",
+        images: [
+            {
+                url: "https://www.pngplay.com/wp-content/uploads/4/Pasta-Transparent-Background.png",
+
+            }
+        ]
+    }
+}
+
 export default function Page() {
     return (
         <section className="section">
