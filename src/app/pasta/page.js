@@ -17,9 +17,19 @@ export const metadata = {
     }
 }
 
+
+
 export default function Page() {
+
+    const jsonLd = {
+        '@context': "https://schema.org",
+        '@type': 'Article',
+        'name': 'Pasta',
+        'description': '파스타는 물과 듀럼밀 세몰리나를 반죽하여 만드는 이탈리아의 면과 이를 이용한 음시 전반을 일컫는 말이다.'
+    }
     return (
         <section className="section">
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
             <h1>Pasta</h1>
             <img
                 className="food-img"

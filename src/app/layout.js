@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
       <header className="header">
-      <p>React에서 SEO 해보기</p>
+      <p>Nextjs에서 SEO 해보기</p>
           <nav>
               <Link href="/">Home</Link>
               <Link href="/chicken">Chicken</Link>
