@@ -25,7 +25,7 @@ export default function Page() {
         '@context': "https://schema.org",
         '@type': 'Article',
         'name': 'Pasta',
-        'description': '파스타는 물과 듀럼밀 세몰리나를 반죽하여 만드는 이탈리아의 면과 이를 이용한 음시 전반을 일컫는 말이다.'
+        'description': '파스타는 물과 듀럼밀 세몰리나를 반죽하여 만드는 이탈리아의 면과 이를 이용한 음시 전반을 일컫는 말이다.',
         'author': {
             "@type": "Person",
             "name:": "소현짱짱"
