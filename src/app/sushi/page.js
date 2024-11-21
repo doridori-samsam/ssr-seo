@@ -1,3 +1,19 @@
+export const metadata = {
+    title: "ssr-seo 초밥 페이지",
+    description: "프라이드 치킨 페이지입니다.",
+    openGraph:{
+        title: "NextJS SNS 공유 테스트 치킨 페이지",
+        description: "일본 요리 대표 초밥. 삭힌 생선으로 만든 초밥도 있대요.",
+        url: "https://ssr-seo.vercel.app/chicken",
+        images: [
+            {
+                url: "https://static.vecteezy.com/system/resources/thumbnails/025/067/612/small/sushi-with-ai-generated-free-png.png",
+                alt: "fried-chicken"
+            }
+        ]
+    }
+}
+
 export default function Page(){
     return (
         <section className="section">

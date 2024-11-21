@@ -6,6 +6,7 @@ export const metadata = {
     openGraph:{
         title: "NextJS SNS 공유 테스트 치킨 페이지",
         description: "후라이드 치킨이 아니라 프라이드 치킨이 맞는 말이래요.",
+        url: "https://ssr-seo.vercel.app/chicken",
         images: [
             {
                 url: "https://www.pngarts.com/files/4/Fried-Chicken-PNG-Image-Transparent-Background.png",
